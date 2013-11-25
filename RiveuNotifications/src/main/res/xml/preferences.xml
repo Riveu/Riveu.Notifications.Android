@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Notifications">
+        <SwitchPreference
+            android:key="pushNotificationPreference"
+            android:title="Push Notification"
+            android:summary="Enable Push Notification"></SwitchPreference>
+        </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Credentials">
+        <EditTextPreference
+            android:key="usernamePreference"
+            android:title="Username"
+            android:summary="Riveu Notifications Username"
+            android:dialogTitle="Username" />
+        <EditTextPreference
+            android:key="passwordPreference"
+            android:title="Password"
+            android:summary="Riveu Notifications Password"
+            android:dialogTitle="Password"
+            android:inputType="textPassword"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,36 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="false"
+    android:columnCount="1"
+    android:rowCount="2"
+    android:layout_gravity="fill"
+    android:paddingRight="16dp">
+    <TableRow android:layout_weight="1" android:paddingTop="20dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:inputType="textMultiLine"
+            android:background="@android:drawable/edit_text"
+            android:textColor="@android:color/primary_text_light"
+            android:gravity="top|left"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="100"
+            />
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_weight=".1" android:layout_height="wrap_content" android:gravity="right" android:paddingRight="5dp">
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="fill_parent"
+            android:text="Send"
+            android:layout_gravity="center"
+            android:gravity="right"
+            />
+    </TableRow>
+
+</TableLayout>

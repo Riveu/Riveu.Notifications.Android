@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RiveuNotifications/RiveuNotifications.iml" filepath="$PROJECT_DIR$/RiveuNotifications/RiveuNotifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RiveuNotificationsProject-2ndTry.iml" filepath="$PROJECT_DIR$/RiveuNotificationsProject-2ndTry.iml" />
+    </modules>
+  </component>
+</project>
+
